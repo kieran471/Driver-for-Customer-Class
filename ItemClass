@@ -1,0 +1,20 @@
+// driver for testing Item Class
+main( )
+{
+   //declare input parameters and values
+   int promoID = 13
+   int prodID = 1244
+   String quantity = "0" ;
+   String size = "0" ;
+   int quantity = 1 ;
+   
+   //perform the test
+   item item = new item() ;
+   item.createitem(promoID,prodID,size,color,quantity) ;
+   
+   //display test results
+   System.out.printIn ("price=" + Item.getPrice()) ;
+   System.out.printIn ("description=" + Item.getDescription()) ;
+   System.out.printIn ("status=" + Item.getStatus ()) ;
+   System.out.printIn ("Inventory=" + Item.getQuantity ()) ;
+   } // endmain()
